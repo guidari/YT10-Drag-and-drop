@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  margin: 20px;
+}
+
+.griditemUI {
+  background-color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  cursor: -webkit-grab;
+}
+
+.container {
+  background-color: #fff;
+}
